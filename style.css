@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* 
+ Designer: CENSORED
+ Imposition: NiceRip
+ Skype: CENSORED: scew.elder2 NiceRip: enzer.
+ Icq: 576007584, 449837711
+ Site: http://www.nice-rip.ru/ 
+*/
+
+/* GENERAL STYLE */
+* {margin:0;padding:0;}
+body {background:#242424;font:11px Tahoma;color:#fff;}
+td, input, select, textarea {font-size:11px;font-family:tahoma;}
+a {color:#fff;text-decoration:none;cursor:pointer;}
+ul, li {list-style:none;margin:0;padding:0;}
+img {border:0;}
+table, form {margin:0;padding:0;}
+.overflow {overflow:hidden;}
+input, textarea, select, button {vertical-align:baseline;border:0;font-family:tahoma;font-size:11px;outline:none;}
+hr {background:url(design_4/hr.png)repeat-x;height:2px;border:none;width:100%;}
+/* ------------- */
+
+/* GLOBAL STYLE */
+#head_wrap {width:1098px;overflow:hidden;margin:0 auto;}
+#header_wrap {width:978px;overflow:hidden;margin:0 auto;}
+#middle {background:#151515;width:978px;overflow:hidden;margin:0 auto;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;}
+#container {width:222px;overflow:hidden;margin:17px 27px 0 23px;float:left;}
+#maincontent {width:684px;overflow:hidden;margin:17px 0 0 271px;}
+#foot_wrap {width:1098px;overflow:hidden;margin:0 auto;}
+/* ------------ */
+
+/* HEADER */
+#head_nav {background:url(design_4/head_nav.jpg);height:39px;}
+ul#menu_nav {width:690px;overflow:hidden;float:left;}
+ul#menu_nav li {float:left;height:34px;display:block;}
+ul#menu_nav li a {padding:0 24px;line-height:34px;display:block;}
+ul#menu_nav li:hover {border-bottom:2px solid #bb9319;display:block;}
+ul#head_dettals {float:left;margin-top:2px;}
+ul#head_dettals li {float:left;border:3px solid #0f0f0f;}
+ul#head_dettals li a {background:#272727;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;border-top:1px solid #4a4a4a;padding:2px 12px;line-height:24px;}
+.header_s {background:#0f0f0f;width:214px;height:19px;margin:4px 0 4px 35px;float:right;overflow:hidden;padding:3px 5px;}
+.qfsi {background:url(design_4/qfsi.png)no-repeat;width:10px;height:11px;margin:4px 8px;float:left;border:none;cursor:pointer;}
+.searchLink {background:#272727;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;border-top:1px solid #4a4a4a;float:left;cursor:pointer;}
+.searchMes {background:none;margin:0 10px;width:162px;float:left;color:#fff;border:none;line-height:20px;font-size:11px;}
+a.logotype {background:url(design_4/logotype.png)no-repeat;width:300px;height:40px;display:block;margin:45px 0 41px 54px;float:left;}
+.h_banka {background:#1990bb;width:474px;height:66px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-top:1px solid #233238;border-left:1px solid #213d48;border-right:1px solid #1c7797;float:right;margin:27px 35px 0 0;}
+.h_banka img {padding:3px;;width:468px;height:60px;}
+/* ------ */
+
+/* OTHER STYLE */
+.site_rating {line-height:40px;}
+.site_rating img {background:#272727;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;border-top:1px solid #4a4a4a;padding:7px 11px;margin:10px 17px;float:left}
+/* ----------- */
+
+/* SIDEBAR */
+#sidebar {margin-bottom:10px;}
+.sidebar_title {background:url(design_4/sidebar_title.png)no-repeat;width:222px;height:33px;text-shadow:0px 1px 0 #126b8b;font-weight:700;line-height:25px;padding-left:13px;}
+.sidebar_content {background:#0f0f0f;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin-top:2px;padding:5px;}
+/* --------- */
+
+/* MENU NAV */
+ul.menu_nav li {background:#090909;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin-bottom:4px;display:block;}
+ul.menu_nav li:hover {background:#bb9319;display:block;}
+ul.menu_nav li a {padding-left:7px;line-height:25px;color:#8b8b8b;display:block;}
+ul.menu_nav li a:hover {color:#fff;display:block;}
+/* -------- */
+
+/* ENTRY */
+#entry {width:320px;overflow:hidden;margin:0 11px 11px 11px;float:left;}
+.entry_title {background:#1c1c1c;border-radius:3px;}
+.entry_title a {padding-left:13px;line-height:30px;}
+.entry_title a.cat_link {background:#1583ab;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin-left:13px;padding:3px 5px;}
+.entry_content {background:#1c1c1c;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;margin-top:4px;padding:7px 13px 9px 13px;}
+.entry_poster {background:#1584ac;width:261px;height:114px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border-left:1px solid #157ea3;border-right:1px solid #19404e;border-bottom:1px solid #1a292e;margin:0 auto;}
+.entry_poster img {width:258px;height:110px;margin:2px 0 0 1px;cursor: -webkit-zoom-in;cursor: -moz-zoom-in;cursor: zoom-in;}
+.entry_message {width:297px;overflow:hidden;margin-top:7px;}
+/* ----- */
+
+/* PAGE SELECTOR */
+.pages {background:#0f0f0f;height:40px;float:left;margin:27px 11px 27px 282px;padding:2px;line-height:40px;}
+b.swchItemA span {background:#bb9319;padding:8px 12px 10px 13px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;margin:0 4px;}
+a.swchItem span {background:#1b1b1b;padding:8px 12px 10px 13px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;margin:0 4px;}
+a.swchItem span:hover {background:#bb9319;padding:8px 12px 10px 13px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;margin:0 4px;}
+b.swchItemA1 span {background:#bb9319;padding:8px 12px 10px 13px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;margin:0 4px;}
+a.swchItem1 span {background:#1b1b1b;padding:8px 12px 10px 13px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;margin:0 4px;}
+a.swchItem1 span:hover {background:#bb9319;padding:8px 12px 10px 13px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;margin:0 4px;}
+/* --- */
+
+/* FOOTER */
+#footer {background:#0f0f0f;height:104px;margin-top:22px;}
+.f_message {width:445px;overflow:hidden;padding-top:30px;float:left;}
+.f_banners {float:right;}
+.f_banka {background:url(design_4/f_banners.png)no-repeat;width:94px;height:37px;margin:30px 6px;float:left;margin-right:8px;}
+.f_banka img {width:88px;height:31px;padding:3px;}
+/* ------ */
